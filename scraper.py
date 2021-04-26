@@ -22,8 +22,8 @@ selectors = {
     "purchased" : ["div.review-pz"],
     "submit_date" : ["span.user-post__published > time:nth-child(1)", "datetime"],
     "purchase_date" : ["span.user-post__published > time:nth-child(2)", "datetime"],
-    "pros" : ["div.review-feature__col:has(> div[class*=\"positives\"]) > div.review-feature_item", 1],
-    "cons" : ["div.review-feature__col:has(> div[class*=\"negatives\"]) > div.review-feature_item", 1],
+    "pros" : ["div.review-feature__col:has(> div[class*=\"positives\"]) > div.review-feature_item",1],
+    "cons" : ["div.review-feature__col:has(> div[class*=\"negatives\"]) > div.review-feature_item",1],
     "useful" : ["span[id^='votes-yes']"],
     "useless" : ["span[id^='votes-no']"]
 }
